@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    
+}
+
+thead th {
+    background-color: gray;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+tbody th, td {
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.media {
+    background-color: gray;
+}
