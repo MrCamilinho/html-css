@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="" id="nome">
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="" id="email">
+            </p>
+            <p>
+                <label for="tel">Telefone</label>
+                <input type="tel" name="" id="tel" pattern="^\(\d{2}\)\d{4}-\d{4}$">
+            </p>
+        </fieldset>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+</body>
+</html>
